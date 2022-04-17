@@ -20,11 +20,11 @@ data.sql contains the existing adventures in SQL format; it will be used to hold
 
   
 Time to test your endpoints, curl commands.
-curl localhost:4001/traveladventures
+curl localhost:8080/traveladventures
  
-curl localhost:4001/traveladventures/bycountry/Greece
+curl localhost:8080/traveladventures/bycountry/Greece
  
-curl localhost:4001/traveladventures/bystate?state=Lisboa
+curl localhost:8080/traveladventures/bystate?state=Lisboa
  
 curl -d '{  "id": "353",  "date": "05/05/2022", "country": "Korea", "city": "Jeju City", "state": "Jeju Province", "numPhotos": "96", "blogCompleted": "false" }'  -H "Content-Type: application/json" localhost:4001/traveladventures 
  
