@@ -1,5 +1,7 @@
 package com.example.mySpringProject.entity;
 
+import javax.persistence.*;
+
 @Entity
 @Table(name = "ADVENTURES")
 public class Adventure {
